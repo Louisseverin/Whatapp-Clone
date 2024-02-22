@@ -1,0 +1,43 @@
+.WhatApp-header {
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgb(27, 27, 27);
+}
+
+.whatapp-icon {
+  display: flex;
+  width: 180px;
+  align-items: center;
+}
+
+.whatapp-text {
+  color: beige;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.whatapp-logo {
+  height: 36px;
+  margin-left: 25px;
+}
+
+.window-icon {
+  display: flex;
+  width: 100px;
+  align-items: center;
+}
+
+.window-icon-image {
+  height: 50px;
+  margin-left: 20px;
+  color: beige;
+}
