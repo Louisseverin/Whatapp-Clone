@@ -8,7 +8,8 @@
   z-index: 200;
 }
 
-.nav-link {
+.nav-link,
+.nav-link1 {
   height: 74px;
   display: flex;
   justify-content: center;
@@ -21,16 +22,22 @@
   border-radius: 4px;
 }
 
+.nav-link1 {
+  background-color: rgb(54, 54, 54);
+}
+
 .nav-link:hover {
   background-color: rgb(54, 54, 54);
 }
 
-.nav-link img {
+.nav-link img,
+.nav-link1 img {
   height: 35px;
   margin-bottom: 4px;
 }
 
-.nav-link div {
+.nav-link div,
+.nav-link1 div {
   font-family: Roboto, Arial;
   font-size: 12px;
 }
